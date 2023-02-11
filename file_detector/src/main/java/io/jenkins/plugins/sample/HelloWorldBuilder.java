@@ -45,7 +45,7 @@ public class HelloWorldBuilder extends Builder implements SimpleBuildStep {
     //I think this is what shows up on the console
     @Override
     public void perform(Run<?, ?> run, FilePath workspace, EnvVars env, Launcher launcher, TaskListener listener) throws InterruptedException, IOException {
-        //calling the HelloWorldAction from "Extend the Plugin" docs:
+        //calling the HelloWorldAction and passing in the name. from "Extend the Plugin" docs:
         run.addAction(new HelloWorldAction(name));
 
         if (useFrench) {

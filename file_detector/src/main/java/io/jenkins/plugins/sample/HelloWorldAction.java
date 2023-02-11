@@ -4,8 +4,8 @@ package io.jenkins.plugins.sample;
 import hudson.model.Action;
 
 public class HelloWorldAction implements Action {
-    //With these changes, the action will show in the build’s side panel, and link to the URL \http://JENKINS/job/JOBNAME/BUILDNUMBER/greeting/.
-    //the page at this url needs to be defined with apache commons Jelly
+    //With these changes, the action Display Name will show in the build’s side panel, and link to the URL \http://JENKINS/job/JOBNAME/BUILDNUMBER/greeting/.
+    //the page at that url needs to be defined with apache commons Jelly
     @Override
     public String getIconFileName() {
         //This is the icon used for the side panel item. document.png is one of the predefined icons bundled with Jenkins.
@@ -25,13 +25,13 @@ public class HelloWorldAction implements Action {
     }
 
 
-    //getters and setters for this class:
-    private String name;
 
+    private String name;
+    //constructor that takes in name as an arg
     public HelloWorldAction(String name) {
         this.name = name;
     }
-
+    //getter for the name
     public String getName() {
         return name;
     }
