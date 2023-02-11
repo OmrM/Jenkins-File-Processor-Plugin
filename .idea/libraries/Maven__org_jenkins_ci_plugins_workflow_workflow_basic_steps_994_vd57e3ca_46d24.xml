@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jenkins-ci.plugins.workflow:workflow-basic-steps:994.vd57e3ca_46d24">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-basic-steps/994.vd57e3ca_46d24/workflow-basic-steps-994.vd57e3ca_46d24.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-basic-steps/994.vd57e3ca_46d24/workflow-basic-steps-994.vd57e3ca_46d24-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-basic-steps/994.vd57e3ca_46d24/workflow-basic-steps-994.vd57e3ca_46d24-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

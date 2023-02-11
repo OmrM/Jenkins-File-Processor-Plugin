@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jenkins-ci.plugins.workflow:workflow-scm-step:400.v6b_89a_1317c9a_">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-scm-step/400.v6b_89a_1317c9a_/workflow-scm-step-400.v6b_89a_1317c9a_.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-scm-step/400.v6b_89a_1317c9a_/workflow-scm-step-400.v6b_89a_1317c9a_-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-scm-step/400.v6b_89a_1317c9a_/workflow-scm-step-400.v6b_89a_1317c9a_-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

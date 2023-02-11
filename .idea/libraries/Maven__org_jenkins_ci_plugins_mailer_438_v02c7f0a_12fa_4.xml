@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jenkins-ci.plugins:mailer:438.v02c7f0a_12fa_4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/mailer/438.v02c7f0a_12fa_4/mailer-438.v02c7f0a_12fa_4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/mailer/438.v02c7f0a_12fa_4/mailer-438.v02c7f0a_12fa_4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/mailer/438.v02c7f0a_12fa_4/mailer-438.v02c7f0a_12fa_4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

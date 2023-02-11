@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jenkins-ci.plugins.workflow:workflow-support:839.v35e2736cfd5c">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-support/839.v35e2736cfd5c/workflow-support-839.v35e2736cfd5c.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-support/839.v35e2736cfd5c/workflow-support-839.v35e2736cfd5c-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-support/839.v35e2736cfd5c/workflow-support-839.v35e2736cfd5c-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

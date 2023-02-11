@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jenkins-ci.plugins:script-security:1218.v39ca_7f7ed0a_c">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/script-security/1218.v39ca_7f7ed0a_c/script-security-1218.v39ca_7f7ed0a_c.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/script-security/1218.v39ca_7f7ed0a_c/script-security-1218.v39ca_7f7ed0a_c-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/script-security/1218.v39ca_7f7ed0a_c/script-security-1218.v39ca_7f7ed0a_c-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jenkins-ci.plugins.workflow:workflow-step-api:639.v6eca_cd8c04a_a_">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-step-api/639.v6eca_cd8c04a_a_/workflow-step-api-639.v6eca_cd8c04a_a_.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-step-api/639.v6eca_cd8c04a_a_/workflow-step-api-639.v6eca_cd8c04a_a_-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-step-api/639.v6eca_cd8c04a_a_/workflow-step-api-639.v6eca_cd8c04a_a_-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

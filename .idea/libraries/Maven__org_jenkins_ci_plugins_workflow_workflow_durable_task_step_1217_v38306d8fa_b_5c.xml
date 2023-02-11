@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jenkins-ci.plugins.workflow:workflow-durable-task-step:1217.v38306d8fa_b_5c">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-durable-task-step/1217.v38306d8fa_b_5c/workflow-durable-task-step-1217.v38306d8fa_b_5c.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-durable-task-step/1217.v38306d8fa_b_5c/workflow-durable-task-step-1217.v38306d8fa_b_5c-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/plugins/workflow/workflow-durable-task-step/1217.v38306d8fa_b_5c/workflow-durable-task-step-1217.v38306d8fa_b_5c-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

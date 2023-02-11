@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.jenkins.plugins:caffeine-api:2.9.3-65.v6a_47d0f4d1fe">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/jenkins/plugins/caffeine-api/2.9.3-65.v6a_47d0f4d1fe/caffeine-api-2.9.3-65.v6a_47d0f4d1fe.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/jenkins/plugins/caffeine-api/2.9.3-65.v6a_47d0f4d1fe/caffeine-api-2.9.3-65.v6a_47d0f4d1fe-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/jenkins/plugins/caffeine-api/2.9.3-65.v6a_47d0f4d1fe/caffeine-api-2.9.3-65.v6a_47d0f4d1fe-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

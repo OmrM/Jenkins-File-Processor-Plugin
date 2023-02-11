@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.jenkins.plugins:ionicons-api:31.v4757b_6987003">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/jenkins/plugins/ionicons-api/31.v4757b_6987003/ionicons-api-31.v4757b_6987003.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/jenkins/plugins/ionicons-api/31.v4757b_6987003/ionicons-api-31.v4757b_6987003-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/jenkins/plugins/ionicons-api/31.v4757b_6987003/ionicons-api-31.v4757b_6987003-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
