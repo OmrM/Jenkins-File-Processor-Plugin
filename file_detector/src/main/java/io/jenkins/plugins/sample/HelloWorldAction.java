@@ -2,8 +2,23 @@
 
 package io.jenkins.plugins.sample;
 import hudson.model.Action;
+import hudson.model.Run;
+import jenkins.model.RunAction2;
+public class HelloWorldAction implements RunAction2 {
+    private transient Run run;
+    @Override
+    public void onAttached(Run<?, ?> run) {
+        this.run = run;
+    }
 
-public class HelloWorldAction implements Action {
+    @Override
+    public void onLoad(Run<?, ?> run) {
+        this.run = run;
+    }
+
+    public Run getRun() {
+        return run;
+    }
     //With these changes, the action Display Name will show in the build’s side panel, and link to the URL \http://JENKINS/job/JOBNAME/BUILDNUMBER/greeting/.
     //the page at that url needs to be defined with apache commons Jelly
     @Override
