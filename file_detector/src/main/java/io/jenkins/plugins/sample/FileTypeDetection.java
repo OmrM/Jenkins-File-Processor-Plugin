@@ -1,9 +1,7 @@
 package io.jenkins.plugins.sample;
 
-import java.io.FileFilter;
 import java.io.IOException;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.*;
 
 public class FileTypeDetection {

@@ -49,11 +49,12 @@ public class HelloWorldBuilder extends Builder implements SimpleBuildStep {
         //calling the HelloWorldAction and passing in the name. from "Extend the Plugin" docs:
         run.addAction(new HelloWorldAction(name));
 
-        if (useFrench) {
-            listener.getLogger().println("Bonjour, " + name + "!");
-        } else {
-            listener.getLogger().println("Hello, " + name + "!");
-        }
+//        if (useFrench) {
+//            listener.getLogger().println("Bonjour, " + name + "!");
+//        } else {
+//            listener.getLogger().println("Hello, " + name + "!");
+//        }
+//        return false;
     }
 
     @Symbol("greet")

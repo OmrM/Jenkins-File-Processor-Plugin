@@ -4,16 +4,13 @@ import hudson.Launcher;
 import hudson.EnvVars;
 import hudson.Extension;
 import hudson.FilePath;
-import hudson.util.FormValidation;
 import hudson.model.AbstractProject;
 import hudson.model.Run;
 import hudson.model.TaskListener;
 import hudson.tasks.Builder;
 import hudson.tasks.BuildStepDescriptor;
 import org.kohsuke.stapler.DataBoundConstructor;
-import org.kohsuke.stapler.QueryParameter;
 
-import javax.servlet.ServletException;
 import java.io.IOException;
 import jenkins.tasks.SimpleBuildStep;
 import org.jenkinsci.Symbol;
@@ -47,9 +44,18 @@ public class FileProcessingBuilder extends Builder implements SimpleBuildStep {
     @Override
     public void perform(Run<?, ?> run, FilePath workspace, EnvVars env, Launcher launcher, TaskListener listener) throws InterruptedException, IOException {
         //calling the HelloWorldAction and passing in the name. from "Extend the Plugin" docs:
-        run.addAction(new HelloWorldAction(name));
+        //run.addAction(new HelloWorldAction(name));
 
         run.addAction(new FileProcessingAction());
+        //calling the main function in the driver.java file
+
+        //FileTypeDetection.FileTypeDetectionMain(null);
+        try {
+            FileTypeDetection.main(new String[]{});
+        } catch (Exception e) {
+            listener.getLogger().println("Error running FileTypeDetection: " + e.getMessage());
+        }
+
     }
 
     @Symbol("greet")
