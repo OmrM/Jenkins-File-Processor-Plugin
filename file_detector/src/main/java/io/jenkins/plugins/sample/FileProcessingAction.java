@@ -41,7 +41,7 @@ public class FileProcessingAction implements RunAction2 {
 
 
     private String name;
-    //constructor that takes in name as an arg
+    //constructor
     public FileProcessingAction() {
         //this.name = name;
     }
