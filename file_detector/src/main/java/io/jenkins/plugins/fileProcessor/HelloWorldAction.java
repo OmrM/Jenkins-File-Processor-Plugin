@@ -1,9 +1,9 @@
 /*HelloWorld Action  */
 
-package io.jenkins.plugins.sample;
+package io.jenkins.plugins.fileProcessor;
 import hudson.model.Run;
 import jenkins.model.RunAction2;
-public class FileProcessingAction implements RunAction2 {
+public class HelloWorldAction implements RunAction2 {
     private transient Run run;
     @Override
     public void onAttached(Run<?, ?> run) {
@@ -29,21 +29,21 @@ public class FileProcessingAction implements RunAction2 {
     @Override
     public String getDisplayName() {
         //This is the label used for the side panel item.
-        return "Files";
+        return "Greeting";
     }
 
     @Override
     public String getUrlName() {
         //This is the URL fragment used for this action.
-        return "files";
+        return "greeting";
     }
 
 
 
     private String name;
-    //constructor
-    public FileProcessingAction() {
-        //this.name = name;
+    //constructor that takes in name as an arg
+    public HelloWorldAction(String name) {
+        this.name = name;
     }
     //getter for the name
     public String getName() {

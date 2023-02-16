@@ -1,4 +1,4 @@
-package io.jenkins.plugins.sample;
+package io.jenkins.plugins.fileProcessor;
 
 import java.util.Date;
 import java.util.HashMap;

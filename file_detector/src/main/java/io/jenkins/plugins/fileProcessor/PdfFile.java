@@ -1,11 +1,10 @@
-package io.jenkins.plugins.sample;
+package io.jenkins.plugins.fileProcessor;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDDocumentInformation;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
 

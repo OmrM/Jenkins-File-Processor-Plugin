@@ -1,6 +1,4 @@
-package io.jenkins.plugins.sample;
-
-import io.jenkins.plugins.sample.FileObjectCreation;
+package io.jenkins.plugins.fileProcessor;
 
 import java.io.IOException;
 import java.util.ArrayList;

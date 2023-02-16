@@ -1,4 +1,4 @@
-package io.jenkins.plugins.sample;
+package io.jenkins.plugins.fileProcessor;
 
 import hudson.Launcher;
 import hudson.EnvVars;
@@ -77,7 +77,7 @@ public class HelloWorldBuilder extends Builder implements SimpleBuildStep {
         public boolean isApplicable(Class<? extends AbstractProject> aClass) {
             return true;
         }
-
+        //display name for the Build step. will show up when adding plugin as a build step in the dashboard
         @Override
         public String getDisplayName() {
             return Messages.HelloWorldBuilder_DescriptorImpl_DisplayName();
