@@ -2,7 +2,7 @@
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:l="/lib/layout" xmlns:st="jelly:stapler">
 
-    <l:layout title="This will display the output for the File Detection Code">
+    <l:layout title="Greeting">
         //side panel for the action:
         <l:side-panel>
             <st:include page="sidepanel.jelly" it="${it.run}" optional="true" />
