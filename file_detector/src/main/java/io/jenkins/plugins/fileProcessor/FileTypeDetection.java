@@ -1,14 +1,16 @@
 package io.jenkins.plugins.fileProcessor;
 
+import java.io.FileFilter;
 import java.io.IOException;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.*;
 
 public class FileTypeDetection {
     public FileTypeDetection(String DIRECTORY){
         this.DIRECTORY = DIRECTORY;
     }
-    private static String DIRECTORY;//absolute path to input
+    private static String DIRECTORY = "file_detector/FileInput";//path to input
 
     public static String getDirectory(){
         return DIRECTORY;
@@ -35,7 +37,7 @@ public class FileTypeDetection {
     private static ArrayList<String> docxNames= new ArrayList<>();
     private static ArrayList<String> pdfNames = new ArrayList<>();
 
-    //if data structure for a specific file type is not created and added to the file organization then it will be added here
+    //if data structure for a specific file typ.
     private static ArrayList<String> unknownNames = new ArrayList<>();
 
     public static ArrayList<ArrayList<String>>  fileArrayOfArrays= new ArrayList<>();
@@ -50,12 +52,15 @@ public class FileTypeDetection {
 
     public static void main(String[] args) throws IOException {
 
-        setDIRECTORY(args[0]);
+        setDIRECTORY(DIRECTORY);
 
         System.out.println("\n\t Traversing files in directory: " + DIRECTORY + "\n");
 
         //Begins traversing file directory
         try {
+            //prints out the current working directory
+            System.out.println(System.getProperty("user.dir"));
+
 
             for (File f : new File(DIRECTORY).listFiles()) {
 

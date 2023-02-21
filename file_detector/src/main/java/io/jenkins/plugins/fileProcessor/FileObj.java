@@ -1,5 +1,3 @@
-package io.jenkins.plugins.fileProcessor;
-
 import java.io.IOException;
 import java.util.ArrayList;
 

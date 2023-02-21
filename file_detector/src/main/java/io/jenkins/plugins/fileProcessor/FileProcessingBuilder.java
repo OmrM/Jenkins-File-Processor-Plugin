@@ -51,6 +51,7 @@ public class FileProcessingBuilder extends Builder implements SimpleBuildStep {
 
         //FileTypeDetection.FileTypeDetectionMain(null);
         try {
+            //try instantiating a new object and then call the main function?
             FileTypeDetection.main(new String[]{});
         } catch (Exception e) {
             listener.getLogger().println("Error running FileTypeDetection: " + e.getMessage());
