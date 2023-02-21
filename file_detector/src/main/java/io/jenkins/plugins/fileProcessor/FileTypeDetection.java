@@ -10,7 +10,9 @@ public class FileTypeDetection {
     public FileTypeDetection(String DIRECTORY){
         this.DIRECTORY = DIRECTORY;
     }
-    private static String DIRECTORY = "file_detector/FileInput";//path to input
+    //private static String DIRECTORY = System.getProperty("user.dir") + "\\..\\FileInput";;//path to input
+    //private static String DIRECTORY = System.getProperty("user.dir")+"\\FileInput";
+    private static String DIRECTORY = System.getProperty("user.dir") + File.separator + ".." + File.separator + "FileInput";
 
     public static String getDirectory(){
         return DIRECTORY;
